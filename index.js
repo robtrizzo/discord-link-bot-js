@@ -24,7 +24,7 @@ client.on('messageCreate', async (message) => {
     switch (msg) {
       case 'help':
         message.reply(
-          'Commands:\n$links\n$game\n$rules\n$characters\n$cases\n$abattoir\n$relationships'
+          `Commands:\n${PREFIX}links\n${PREFIX}game\n${PREFIX}rules\n${PREFIX}characters\n${PREFIX}cases\n${PREFIX}abattoir\n${PREFIX}relationships`
         );
         break;
       case 'links':
