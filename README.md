@@ -22,4 +22,4 @@ DISCORD_TOKEN=<your token here>
 
 ## Running the Bot
 
-Run the bot with `npm start` or `node index.js`.
+Run the bot with terminal commands `npm start` or `node index.js`.
