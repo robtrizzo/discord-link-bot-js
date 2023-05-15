@@ -1,3 +1,4 @@
+import characters from './characters.json' assert { type: 'json' };
 import dotenv from 'dotenv';
 dotenv.config();
 
@@ -20,11 +21,14 @@ const PREFIX = '!';
 client.on('messageCreate', async (message) => {
   if (message.author.bot) return;
   if (message.content.startsWith(PREFIX)) {
-    const msg = message.content.slice(PREFIX.length);
+    const msg = message.content
+      .slice(PREFIX.length)
+      .toLowerCase()
+      .split(/ (.*)/s)[0];
     switch (msg) {
       case 'help':
         message.reply(
-          `Commands:\n${PREFIX}links\n${PREFIX}game\n${PREFIX}rules\n${PREFIX}characters\n${PREFIX}cases\n${PREFIX}abattoir\n${PREFIX}relationships`
+          `Commands:\n${PREFIX}links\n${PREFIX}game\n${PREFIX}rules\n${PREFIX}characters\n${PREFIX}cases\n${PREFIX}abattoir\n${PREFIX}relationships\ninfo <character name>`
         );
         break;
       case 'links':
@@ -59,6 +63,26 @@ client.on('messageCreate', async (message) => {
         break;
       case 'relationships':
         message.reply('https://kumu.io/janemarie19/40wf-relationship-chart');
+        break;
+      case 'info':
+        const character = message.content.split(/ (.*)/s)[1].toLowerCase();
+        if (!character) {
+          message.reply('Please provide a character name');
+          return;
+        }
+        const characterInfo = characters[character];
+        if (!characterInfo) {
+          message.reply(
+            'Character not found. Try one of the following:\n' +
+              Object.keys(characters).join('\n')
+          );
+          return;
+        }
+        const response = [];
+        for (const [key, value] of Object.entries(characterInfo)) {
+          response.push(`**${key}**: ${value}`);
+        }
+        message.reply(response.join('\n\n'));
         break;
       default:
         message.reply('Command not found. Try !help');

@@ -1,0 +1,89 @@
+{
+  "bleeding heart": {
+    "Playbook": "The Protoge",
+    "Mundane Name": "Evelyn Victoria Debs",
+    "Costume": "Nondescript clothing, bandana & goggles, heart spray-painted on her chest (the paint has run and dripped, producing a “bleeding” effect).",
+    "Power": "Superpower mimicry. To more effectively mimic someone’s power, she must take on more of their personal identity; full mimicry and mastery requires almost-total ego death and sublimation into the target’s persona.",
+    "Backstory": "Evelyn ran into her soon-to-be mentor when she started taking her Intro to Political Theory class at community college. Their shared powers interacted in a strange way, and soon Evelyn would discover that Professor Brooke Sobania was in fact the notorious cape known as Myriad. Myriad took Evelyn under her wing, forging her cape identity as Bleeding Heart. Despite Myriad’s attempts to provide a calming influence, Bleeding Heart remains a radical and aggressive young cape, who believes that sometimes “empathy must give way to justice”.",
+    "Mentor": "Myriad, aka Professor Brooke Sobania, has the ability of power mimicry. She embodies Savior and denies Danger, reflected in her hopeful belief that even villains can be reformed. Myriad provides the following resources to the team:\n\t* Hidden base in the basement of an abandoned storefront under the Professor’s apartment\n\t* Her old hatchback, a somewhat functional getaway car"
+  },
+  "cortex": {
+    "Playbook": "The Scion",
+    "Mundane Name": "Josiah \"Jed\" Jensen",
+    "Power": "Manipulates people’s nervous system to inflict synaptic misfires, directing their impulse control to screw with their motor functions and cognition.",
+    "Backstory": "Josiah is the son of a superpowered lieutenant in the Harbor Kings criminal group, a cape known as Jumpscare. His mother has kept his powers and cape identity secret from the other crime bosses, but that can’t last forever. Now, he roams the streets by night as Cortex, trying to fight back against the wave of crime his own family is responsible for."
+  },
+  "omnibus": {
+    "Playbook": "The Transformed",
+    "Mundane Name": "Bradley Kibbles",
+    "Power": "Omnibus’ mangled head and torso are implanted permanently within a hulking robotic chassis, resplendent with a panoply of gadgets and high-powered weapons. The catch? No one told him how to use it, and there’s no instruction manual.",
+    "Backstory": "Fifteen-year old Bradley was crossing the street when top hero Callback’s supervehicle struck him at eighty miles per hour, ripping him apart and scattering his limbs across three city blocks. Miraculously, he clung to life until paramedics arrived. To prevent his family from pressing charges, AEGIS implanted his remains within a spare decommissioned robotic chassis. Bradley, thrust into a new and confusing life as a walking tank, spent years adjusting before finally seeking to understand his new reality by attending community college, where he pursues a course load of biomechanical engineering, shop mechanics, and theater. Omnibus was a later addition to the team, an obvious candidate for recruitment."
+  },
+  "mister neighbor": {
+    "Playbook": "The Persona",
+    "Mundane Name": "Steven O'Malley",
+    "Mister Neighbor Costume": "Brown leather jacket, faded hippie festival t-shirt, black morph suit underneath with the eyes cut out and a yellow sharpie smiley face. Wearing round black sunglasses, jean cut-offs, and Reeboks.",
+    "Unfriended Costume": "Full-face LED screen mask, usually displaying the frowny face emoji. Black jean vest with punk rock patches, black leather biker pants with spiked knee pads. Combat boots. Red anarchy symbol painted on the chest of black morph suit.",
+    "Power": "Light manipulation. Mister Neighbor can bend, reflect, and redirect light as he chooses. Has used this to render himself invisible, as well as plunge areas into darkness.",
+    "Backstory": "Steven grew up helping his mother run a local community food bank. When he was seventeen, a horrific tragedy occurred while volunteering. A major outbreak of superpowered violence in the city led to a small-time villain getting thrown through the wall of the foodbank and into the dining area. As people watched aghast, the villain began to melt before their eyes. Heat waves radiated off him, and those who rushed to help were likewise rendered down into melted fat and charred bone. Only Steven saw the truth: outside, the Guardian Angel member called Thermal was using her powers to take out the villain. By the end of the encounter, a dozen people were dead, and the food bank was damaged beyond repair. On that day, Mister Neighbor was born. He spent a brief time trying to help the city and undo the damage Thermal had done, before the realization dawned: he was unable to change anyone’s perception of the Guardian Angels by working within the established lines of good. So a second cape was born: Unfriended. In his dark alias, Unfriended seeks to find evidence of Thermal’s crime and destroy her public image forever. Only then can the grave injustice he witnessed be avenged."
+  },
+  "nightshift": {
+    "Playbook": "The Janus",
+    "Mundane Name": "Hanna Belenky-Friedman",
+    "Costume": "Dark elastic short leggings and short-sleeve shirt. Tinted-orange face shield, opaque except for around the eyes, made from a mask she lifted from the hospital. A white-and-orange sleeveless hooded jacket. And an orange cross-body bag with first-aid supplies for these other fools she’s encountering.",
+    "Power": "Density/mass manipulation through shrinking. She can make herself stronger and tougher the smaller she gets. If she's shrunk from her usual 5'10\" down to 4'3\", she's strong enough to punch someone across a parking lot and withstand bullets. At 2’9” she can rip apart steel beams and leap onto high rooftops (leaving tiny craters in her wake). But getting down to the single inches—even though she's essentially invulnerable—is tough to manage, since she's so dense she can’t move.",
+    "Backstory": "Hannah Friedman's a thoughtful, steady young woman juggling a lot of plates: She’s training to work at the hospital, taking classes at community college as she saves for medical school and trying to care for her ailing grandmother and young brother. But her increasing exhaustion is only matched by her growing anger at the world that sends people dead, shot, stabbed, or assaulted to her work during training hours. When her powers kicked in, it seemed like a message from the universe: do something about it. She's kept her parahuman abilities quiet in her day-life—just lifted a few heavy boxes here and there, shifted some big patients, held back panicking guys a few times; small stuff that her stocky frame can explain away. She wears different heights of shoes a lot. And at night she goes out and makes sure her day shift is a little lighter."
+  },
+  "pariah": {
+    "Playbook": "The Defector",
+    "Mundane Name": "Perry Smith",
+    "AEGIS Codename": "Cremona",
+    "Costume": "Urban camo hooded poncho worn over badass military fatigues.",
+    "Power": "Cellular manipulation of his own body. Able to reflexively change body chemistry and anatomy, up to and including transforming into a disgusting city-destroying monster.",
+    "Backstory": "The clone of a fallen hero, Pariah was raised by AEGIS as a superpowered warmachine. On his first mission at age sixteen, he was tasked with destroying an insurgent outpost in another country, but unbeknownst to him there were civilians present, who were killed by his power. After the mission, he promptly turned his back on AEGIS and fled to Halcyon City. Now, he seeks redemption for his heinous actions by changing the world for good as a cape. Currently, he moonlights as a janitor for the college as part of his work-study program."
+  },
+  "penumbra": {
+    "Playbook": "The Persona",
+    "Mundane Name": "Ada Riley",
+    "Alias Name": "Phobia",
+    "Penumbra Costume": "Black jeans, dark hoodie, grey scarf, light body armor, utility webbing. Identity hidden by a tinted face shield.",
+    "Phobia Costume": "Blackwashed SWAT gear and full-face cowl obscuring all features.",
+    "Power": "Projects a psychic aura that triggers the flight response and feelings of creeping dread in those nearby. The power is always active, though she can suppress it through concentration; it surges during breaks in that concentration, especially in life or death situations. Through focus, is able to tune the power up, but the more intense the effect, the shorter the radius.",
+    "Backstory": "During her first attempt at caping with two super-friends, Ada Riley was caught by the police in an encounter that claimed the life of one of her fellow capes, and forever dissuaded the other from superheroics. Ada, however, was not so lucky; forced into the role of the supe-on-a-rope for the local cops, she maintains a triple existence. By day, Ada is just another college student. By night, Ada is Penumbra, a member of the team. But by ultra-night, Ada is Phobia, an enhanced interrogator working begrudgingly for the police. (*This is a secret from our characters, but all of us as players are in the know; it’s more fun that way*)."
+  },
+  "pinky": {
+    "Playbook": "The Delinquent",
+    "Mundane Name": "Dylan So",
+    "Costume": "Nondescript black clothes covered in belt after belt of tools: screwdrivers, nails, wrenches, omni-tools, swiss army knives, you name it. Face concealed by a welding mask.",
+    "Power": "Savant-level genius when it comes to anything mechanical or electronic. A preternaturally masterful hacker and tinker, attuned to electromagnetic fields.",
+    "Backstory": "Raised in the projects, Dylan was forced to scam and scrap to meet his daily survival needs. When he discovered his power, he started using it to scam supermarkets and bust ATMs. From his recognition of the injustice of the world, he developed a strong desire to help those who’ve been fucked over by the system. He first donned the cape as Pinky to take down an extortion racket run by the Harbor Kings. While this outing ended in disaster, Pinky is now driven to do it right, and do it better next time."
+  },
+  "siren": {
+    "Playbook": "The Star",
+    "Mundane Name": "Amy Marsh",
+    "Costume": "Baby pink leotard, diaphanous ballet skirt, masquerade mask with a veil extending down to cover the rest of the face, hiding a voice modulator she can toggle on and off.",
+    "Power": "When she speaks, people become obsessed with her, rendering them highly suggestible to what she says. When people who have been influenced by her power are no longer under its effects, they experience withdrawal-like symptoms (including anger, shame, guilt, etc). Unfortunately, her power also affects her; the more she uses it, the more she becomes self-obsessed. Has taken to wearing a voice modulator when caping with the team to spare them her power’s effects. To avoid affecting her whole team in battle, she’s forced to get up close and personal with her intended targets.",
+    "Backstory": "Amy Marsh grew up as the child of a former superhero, who noticed her manifesting powers at an early age, but was unable to avoid their effects. As such, mom is her number one fan and most diehard supporter! One day in speech class at the local community college, Amy was forced to make a speech, and ended up entrancing all the students with her power. This formed the core of her burgeoning audience, who have become devoted followers of her cape social media. When in costume, Siren can often be found livestreaming the aftermath of a battle or noteworthy mission, keeping her fans hooked on her power. She does this mainly to avoid the massive comedown and backlash of hatred they will experience once she stops using the power on them. Lately, the leader of the Guardian Angels has expressed public disdain for “Siren and everyone like her, who profit off the backs of their illegal activities and pull good citizens into their schemes”. A powerful enemy indeed, but one who is, for now, content to criticize without actually intervening..."
+  },
+  "risk": {
+    "Playbook": "The Doomed",
+    "Mundane Name": "Serafina Ward",
+    "Costume": "Black, cat-eared hoodie and dark jeans, biker gloves and combat boots. Neck gaiter mask. Has at least two decks of cards at all times, and a few silver dollars for flipping.",
+    "Power": "Luck manipulation; can intentionally incur bad luck to “charge” a future burst of good luck. Manifests as *Final Destination*-style chains of happenstance.",
+    "Backstory": "Expelled from Central Polytechnic University after she was caught running unsanctioned poker games for the wealthy student body, Serafina Ward found herself saddled with massive debts – and some very violent creditors. Hoping for a quick score on her way out, she broke into the physics lab she’d briefly studied in to steal some research, only to be trapped inside a particle accelerator during an experiment on quantum entanglement. She emerged able to feel the flow of luck around her and tweak it slightly, always mindful of the crackback. Narrowly avoiding a “fixer” sent by her creditors, known only as The Manitoban, she ditched her identity and fled back home to Halifax Harbor. She’d borrowed a lot of money, though, so even as she tries to rebuild her life and do some good, she knows that every bit of bad luck draws the wolves in ever closer."
+  },
+  "tether": {
+    "Playbook": "The Nova",
+    "Mundane Name": "Rowan Hunt",
+    "Costume": "High-colored trench coat with tons of pockets, black morph suit covering entire head, white domino mask on top, tactical pants for even more pockets.",
+    "Power": "Through concentration, he can create a quantum entanglement link between different waves. The power, however, is restricted by the likeness and distance of the waves he entangles; for example, linking two identical objects and moving one will move the other, with the energy cost to him being only the cost of moving both objects. But if he were to link two dissimilar objects, more energy would be required to affect them than it would normally take to affect both; energy is lost here. However, he doesn’t always play a zero-sum game with energy; the power of his emotions acts as an extra energy source when he’s in a heightened state.",
+    "Backstory": "Rowan manifested his powers at a young age. The idyllic world of pre ‘07 superheroics allowed his curious mind to flourish, using his power to discover the connections between all things. The Purge changed everything for young Rowan. His parents, both superheroes, lost everything. Life became hard, and only got harder when his parents were sentenced to life in prison for using their powers to intervene in a mugging in 2009. Since then, he has lived with his uncle, a militantly anti-cape policeman. Rowan’s uncle knows about his power, and is constantly breathing down his neck. Still, he maintains his secret cape identity as Tether, working with the team driven by the belief that it’s more important that everyone survive the night than accomplishing any objective. Tether is a great member of the collective, since his only true community is the collection of capes he calls his team."
+  },
+  "the morrigan": {
+    "Playbook": "The Reformed",
+    "Mundane Name": "Cassandra Byrne",
+    "Costume": "Witch hat, long skirt with high slits, tights underneath, top with pentagram neckline.",
+    "Power": "When she touches you, she gains immediate knowledge of the next minute of your life and every decision you will make, terminating either at the end of one minute or at the first significant intervention of random chance into the equation. Her power extends to “talismans”, objects that have had physical contact or sentimental resonance with the target.",
+    "Backstory": "Cassandra began her career sneaking candies without ever seeming to get caught. By middle school, she and her friends were expert shoplifters, and she ensured that the security guard was always in the right place at the wrong time. In high school, she graduated to petty theft, assisted and emboldened by her ability to know every step and turn her marks would take. Cassandra’s criminal career culminated in a stint as one of the best card sharks in the city, a stunt which got her banned from every casino from Industry City to Swan Heights. A brush with the law, combined with the ire of the Harbor Kings, got her mundane identity busted by the cops and placed on parole. Now, she has reformed her ways, taking on the mantle of The Morrigan to help the team and redeem herself by doing good for the city."
+  }
+}
