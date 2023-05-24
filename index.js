@@ -35,7 +35,7 @@ client.on('messageCreate', async (message) => {
     switch (msg) {
       case 'help':
         message.reply(
-          `Commands:\n${PREFIX}links\n${PREFIX}game\n${PREFIX}rules\n${PREFIX}characters\n${PREFIX}cases\n${PREFIX}abattoir\n${PREFIX}relationships\n${PREFIX}info <character name>`
+          `Commands:\n${PREFIX}links\n${PREFIX}game\n${PREFIX}rules\n${PREFIX}characters\n${PREFIX}cases\n${PREFIX}abattoir\n${PREFIX}relationships\n${PREFIX}info <character name>\n${PREFIX}threat <character name>`
         );
         break;
       case 'links':
