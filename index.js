@@ -2,7 +2,13 @@ import characters from './characters.json' assert { type: 'json' };
 import dotenv from 'dotenv';
 dotenv.config();
 
-import { Client, GatewayIntentBits, Events } from 'discord.js';
+import {
+  Client,
+  GatewayIntentBits,
+  Events,
+  AttachmentBuilder,
+  EmbedBuilder,
+} from 'discord.js';
 const client = new Client({
   intents: [
     GatewayIntentBits.Guilds,
