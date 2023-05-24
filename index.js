@@ -31,6 +31,7 @@ client.on('messageCreate', async (message) => {
       .slice(PREFIX.length)
       .toLowerCase()
       .split(/ (.*)/s)[0];
+    let character;
     switch (msg) {
       case 'help':
         message.reply(
@@ -71,10 +72,10 @@ client.on('messageCreate', async (message) => {
         message.reply('https://kumu.io/janemarie19/40wf-relationship-chart');
         break;
       case 'info':
-        const character = message.content.split(/ (.*)/s)[1].toLowerCase();
+        character = message.content.split(/ (.*)/s)[1]?.toLowerCase();
         if (!character) {
           message.reply('Please provide a character name');
-          return;
+          break;
         }
         const characterInfo = characters[character];
         if (!characterInfo) {
@@ -82,13 +83,36 @@ client.on('messageCreate', async (message) => {
             'Character not found. Try one of the following:\n' +
               Object.keys(characters).join('\n')
           );
-          return;
+          break;
         }
         const response = [];
         for (const [key, value] of Object.entries(characterInfo)) {
           response.push(`**${key}**: ${value}`);
         }
         message.reply(response.join('\n\n'));
+        break;
+      case 'threat':
+        character = message.content.split(/ (.*)/s)[1]?.toLowerCase();
+        if (!character) {
+          message.reply('Please provide a character name');
+          break;
+        }
+        const threatInfo = characters[character];
+        if (!threatInfo) {
+          message.reply(
+            'Character not found. Try one of the following:\n' +
+              Object.keys(characters).join('\n')
+          );
+          break;
+        }
+        const filename = `./assets/${character
+          .toLowerCase()
+          .replace(/\s/g, '')}.png`;
+        const file = new AttachmentBuilder(filename);
+        const embed = new EmbedBuilder()
+          .setTitle(`aegis threat rating: ${character}`)
+          .setImage(`attachment://${filename}.png`);
+        message.reply({ embeds: [embed], files: [file] });
         break;
       default:
         message.reply('Command not found. Try !help');
