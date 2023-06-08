@@ -35,7 +35,7 @@ client.on('messageCreate', async (message) => {
     switch (msg) {
       case 'help':
         message.reply(
-          `Commands:\n${PREFIX}links\n${PREFIX}game\n${PREFIX}rules\n${PREFIX}characters\n${PREFIX}cases\n${PREFIX}abattoir\n${PREFIX}relationships\n${PREFIX}info <character name>\n${PREFIX}threat <character name>`
+          `Commands:\n${PREFIX}links\n${PREFIX}game\n${PREFIX}rules\n${PREFIX}characters\n${PREFIX}cases\n${PREFIX}abattoir\n${PREFIX}relationships\n${PREFIX}conspiracy\n${PREFIX}info <character name>\n${PREFIX}threat <character name>`
         );
         break;
       case 'links':
@@ -70,6 +70,11 @@ client.on('messageCreate', async (message) => {
         break;
       case 'relationships':
         message.reply('https://kumu.io/janemarie19/40wf-relationship-chart');
+        break;
+      case 'conspiracy':
+        message.reply(
+          'https://embed.kumu.io/80be4152515fbf943ca7c503b4045f0c#untitled-map'
+        );
         break;
       case 'info':
         character = message.content.split(/ (.*)/s)[1]?.toLowerCase();
