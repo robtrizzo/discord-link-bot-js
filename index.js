@@ -60,7 +60,7 @@ client.on('messageCreate', async (message) => {
         break;
       case 'cases':
         message.reply(
-          'https://docs.google.com/document/d/1q8zMW469kY4qWR0PpqacC3yuYq7R4E28IIzijZPudU4/edit#heading=h.psyaydv8s56e'
+          'https://docs.google.com/document/d/1q8zMW469kY4qWR0PpqacC3yuYq7R4E28IIzijZPudU4/edit#heading=h.psyaydv8s56e\nhttps://docs.google.com/document/d/1zf_eT4HnBKO2qIwB9HipVX9umH_WpdBDtrMVQptxCv4/edit'
         );
         break;
       case 'abattoir':
